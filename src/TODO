@@ -1,0 +1,42 @@
+Reminders:
+1. Use the Session Startup links (at bottom)
+2. Did I make an Inverted Page Table by accident? Check the Wikipiedia page: https://en.wikipedia.org/wiki/Page_table#Inverted_page_tables
+    a. Oh boy I think I did. Does that mean I've already done part 4? Double ducking check or suffer.
+    Wait, just need to make sure each page entry store's its own page number. Have yet to implement that. what would I use it for?
+
+
+Items:
+1. Testing for Part 3
+2. try doing stuff with the executable bit?
+3. README file for Part 3
+4. Expansion for Part 4
+5. Documentation
+    a. I have 16 Bit's I'm going to use all 16 bits.
+    I can add on some more meta-data features
+    Future proofing! The highest six bits can be used for heirarchical paging I think.
+    b. I looked at the TLB part of the Lecture 14 Slides and I understood what to do.
+    How to add in the meta-bits that I could not fit in before.
+
+
+Tests:
+1. Unmaping Stuff
+2. Non-Linear mapping? idk how to do that, or what to do with it.
+3. Try storing integers?
+4. Try overwriting information already written.
+5. Try overwriting information with a read only bit.
+
+
+Session Startup links
+file:///home/sf213/Documents/CS3104/Practicals/P2-Paging-Work/report/P2-Paging.pdf
+file:///home/sf213/Documents/CS3104/Lectures/14%20-%20Paging.pdf
+file:///home/sf213/Documents/CS3104/Lectures/15%20-%20Page%20Table%20Structure%20and%20Segmentation.pdf
+https://www.rapidtables.com/convert/number/hex-to-binary.html?x=0x000F
+
+For Part 2
+https://en.wikipedia.org/wiki/ARM_architecture_family
+https://en.wikipedia.org/wiki/Reduced_instruction_set_computer
+https://developer.arm.com/documentation/102376/0100/Memory-access-ordering
+https://link.springer.com/content/pdf/10.1007/978-3-319-51517-5.pdf
+https://www.ic.unicamp.br/~celio/mc404-2013/arm-manuals/Paging%20Systems.pdf
+https://wiki.osdev.org/ARM_Overview#Memory
+https://www.kernel.org/doc/html/latest/arm64/memory.html
